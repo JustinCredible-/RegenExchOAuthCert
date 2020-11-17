@@ -1,5 +1,5 @@
 //Set your domain name here
-$domain = "mail.domain.com"
+$domain = Read-Host -Prompt "Enter your Exchange FQDN"
 
 $cert = New-ExchangeCertificate -KeySize 2048 -PrivateKeyExportable $true -SubjectName "cn= Microsoft Exchange Server Auth Certificate" -DomainName $domain -FriendlyName "Microsoft Exchange Server Auth Certificate" -Services SMTP
 $dt = Get-Date
