@@ -4,3 +4,7 @@ While setting up Exchange OAuth for Hybrid Exchange/O365 deployments, you may ne
 This script will do that for you!
 
 replace mail.domain.com with your Exchange server's FQDN, run in Exchange Management Shell on a Frontend server and do an iisreset.
+
+
+
+With guidance from https://www.messaginginsight.com/2017/06/03/setting-or-renewing-a-new-exchange-auth-certificate/
